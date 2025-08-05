@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Image, View, Text, StyleSheet } from 'react-native';
 
-export function ImageWithFallback({ 
+export default function ImageWithFallback({ 
   src, 
   alt, 
   style, 

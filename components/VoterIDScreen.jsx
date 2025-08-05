@@ -19,7 +19,7 @@ import {
 import { Input } from './ui/input.jsx';
 import { Button } from './ui/button.jsx';
 
-export function VoterIDScreen({ onValidationComplete, context }) {
+export default function VoterIDScreen({ onValidationComplete, context }) {
   const [verificationStep, setVerificationStep] = useState('input'); // input, verified, upload, complete
   const [voterIdNumber, setVoterIdNumber] = useState('');
   const [isLoading, setIsLoading] = useState(false);

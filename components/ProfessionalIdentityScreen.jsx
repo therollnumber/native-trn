@@ -16,7 +16,7 @@ import {
   ChevronRight,
 } from 'lucide-react-native';
 
-export function ProfessionalIdentityScreen({ onNavigate }) {
+export default function ProfessionalIdentityScreen({ onNavigate }) {
   const professions = [
     {
       id: 'doctor',

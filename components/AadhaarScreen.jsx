@@ -19,7 +19,7 @@ import {
 import { Input } from './ui/input.jsx';
 import { Button } from './ui/button.jsx';
 
-export function AadhaarScreen({ onValidationComplete, context }) {
+export default function AadhaarScreen({ onValidationComplete, context }) {
   const [verificationStep, setVerificationStep] = useState('input'); // input, otp, verified, upload, complete
   const [aadhaarNumber, setAadhaarNumber] = useState('');
   const [otp, setOtp] = useState('');

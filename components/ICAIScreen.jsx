@@ -18,7 +18,7 @@ import {
 import { Input } from './ui/input.jsx';
 import { Button } from './ui/button.jsx';
 
-export function ICAIScreen({ onValidationComplete, context }) {
+export default function ICAIScreen({ onValidationComplete, context }) {
   const [verificationStep, setVerificationStep] = useState('input'); // input, verified, upload, complete
   const [membershipNumber, setMembershipNumber] = useState('');
   const [yearOfMembership, setYearOfMembership] = useState('');

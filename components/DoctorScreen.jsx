@@ -18,7 +18,7 @@ import {
 import { Input } from './ui/input.jsx';
 import { Button } from './ui/button.jsx';
 
-export function DoctorScreen({ onValidationComplete, context }) {
+export default function DoctorScreen({ onValidationComplete, context }) {
   const [verificationStep, setVerificationStep] = useState('input'); // input, verified, upload, complete
   const [registrationNumber, setRegistrationNumber] = useState('');
   const [yearOfRegistration, setYearOfRegistration] = useState('');

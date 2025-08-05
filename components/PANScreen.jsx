@@ -19,7 +19,7 @@ import {
 import { Input } from './ui/input.jsx';
 import { Button } from './ui/button.jsx';
 
-export function PANScreen({ onValidationComplete, context }) {
+export default function PANScreen({ onValidationComplete, context }) {
   const [verificationStep, setVerificationStep] = useState('input'); // input, verified, upload, complete
   const [panNumber, setPanNumber] = useState('');
   const [dateOfBirth, setDateOfBirth] = useState('');

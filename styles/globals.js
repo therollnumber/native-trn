@@ -331,8 +331,8 @@ export const createStyleSheet = (theme) => {
   };
 };
 
-// Export default theme configuration
-export default {
+// export default function theme configuration
+export default  {
   light: lightTheme,
   dark: darkTheme,
   rollNumber: rollNumberWalletTheme,

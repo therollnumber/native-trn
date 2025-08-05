@@ -19,7 +19,7 @@ import {
 import { Input } from './ui/input.jsx';
 import { Button } from './ui/button.jsx';
 
-export function TRAIScreen({ onValidationComplete, context }) {
+export default function TRAIScreen({ onValidationComplete, context }) {
   const [verificationStep, setVerificationStep] = useState('input'); // input, otp, verified, upload, complete
   const [mobileNumber, setMobileNumber] = useState('');
   const [otp, setOtp] = useState('');
